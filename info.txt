@@ -1,0 +1,3 @@
+token=NzM2MDYyMDk5OTY4NDkxNTIy.XxpVQA.T9wJG7Y89GYCxXrZ6E5D82hq5Js/n
+servername=Purely For Testing A Bot/n
+# NOTICE! LEAVE THE /n's in the file or it wont work properly. Just paste your info before them.
