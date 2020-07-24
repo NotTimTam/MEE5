@@ -28,13 +28,15 @@ logfile.write(current_date)
 logfile.close()
 
 swear_filter = True # Filter swearing...
-swear_dict = ["fuck", "bitch", "nigger", "ass", "rape", "nigg", "nig"]
+swear_dict = ["nebula"]
 
 @client.event
 async def on_ready():
     for guild in client.guilds:
         if guild.name == GUILD:
             break
+
+    await client.change_presence(activity=discord.Streaming(name="Minecraft Hardcore Playthrough - #41", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"))
 
     print(
         f'{client.user} is connected to '
